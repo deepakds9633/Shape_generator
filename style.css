@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.body{
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#input{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbhY2toEVi3mGS-W2B5LisHHJREPxDJ8NIQg&s");
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow(232, 20, 20);
+}
+
+h1{
+    font-size: 5em;
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+}
+#number{
+    width: 150px;
+    height: 40px;
+
+    font-size: 2em;
+    padding: 0 10px;
+}
+
+
+#button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: blue;
+    color: red;
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: aquamarine;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: blue;
+}
+
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: aquamarine;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(231, 47, 255);
+}
+
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: aquamarine;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(18, 19, 18);
+}
